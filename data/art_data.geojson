@@ -1,0 +1,158 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "X": 84.893819, "Y": 27.0136, "District": "Parsa", "Health Facility": "Hospital", "Name": "Narayani Sub-Regional Hospital, Birgunj" }, "geometry": { "type": "Point", "coordinates": [ 84.893819, 27.0136 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.330746, "Y": 27.73613, "District": "Kathmandu", "Health Facility": "Hospital", "Name": "Tribhuwan University Teaching Hospital, Maharajgunj" }, "geometry": { "type": "Point", "coordinates": [ 85.330746, 27.73613 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.31366, "Y": 27.705325, "District": "Kathmandu", "Health Facility": "Hospital", "Name": "Bir Hospital, Ratna Park" }, "geometry": { "type": "Point", "coordinates": [ 85.31366, 27.705325 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.30674, "Y": 27.694961, "District": "Kathmandu", "Health Facility": "Hospital", "Name": "Sukraraj Tropical & Infectious Disease Hospital, Teku" }, "geometry": { "type": "Point", "coordinates": [ 85.30674, 27.694961 ] } }
+,
+{ "type": "Feature", "properties": { "X": 83.998471, "Y": 28.212269, "District": "Kaski", "Health Facility": "Hospital", "Name": "Western Regional Hospital, Pokhara" }, "geometry": { "type": "Point", "coordinates": [ 83.998471, 28.212269 ] } }
+,
+{ "type": "Feature", "properties": { "X": 88.088314, "Y": 26.556828, "District": "Jhapa", "Health Facility": "Hospital", "Name": "Mechi Zonal Hospital, Bhadrapur" }, "geometry": { "type": "Point", "coordinates": [ 88.088314, 26.556828 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.923444, "Y": 26.733255, "District": "Dhanusha", "Health Facility": "Hospital", "Name": "Janakpur Zonal Hospital, Janakpur" }, "geometry": { "type": "Point", "coordinates": [ 85.923444, 26.733255 ] } }
+,
+{ "type": "Feature", "properties": { "X": 81.619743, "Y": 28.052794, "District": "Banke", "Health Facility": "Hospital", "Name": "Bheri Zonal Hospital, Nepalgunj" }, "geometry": { "type": "Point", "coordinates": [ 81.619743, 28.052794 ] } }
+,
+{ "type": "Feature", "properties": { "X": 81.218979, "Y": 29.20824, "District": "Achham", "Health Facility": "Hospital", "Name": "Bayalpata Hospital, Bayalpata" }, "geometry": { "type": "Point", "coordinates": [ 81.218979, 29.20824 ] } }
+,
+{ "type": "Feature", "properties": { "X": 84.265276, "Y": 27.972136, "District": "Tanahu", "Health Facility": "Hospital", "Name": "Damauli Hospital, Damauli" }, "geometry": { "type": "Point", "coordinates": [ 84.265276, 27.972136 ] } }
+,
+{ "type": "Feature", "properties": { "X": 83.873968, "Y": 28.1049, "District": "Syangja", "Health Facility": "Hospital", "Name": "Syanja District Hospital, Badkhola" }, "geometry": { "type": "Point", "coordinates": [ 83.873968, 28.1049 ] } }
+,
+{ "type": "Feature", "properties": { "X": 83.557687, "Y": 27.871782, "District": "Palpa", "Health Facility": "Hospital", "Name": "United Mision Hospital, Tansen" }, "geometry": { "type": "Point", "coordinates": [ 83.557687, 27.871782 ] } }
+,
+{ "type": "Feature", "properties": { "X": 83.248332, "Y": 28.068203, "District": "Gulmi", "Health Facility": "Hospital", "Name": "Gulmi District Hospital, Tamghas" }, "geometry": { "type": "Point", "coordinates": [ 83.248332, 28.068203 ] } }
+,
+{ "type": "Feature", "properties": { "X": 84.628243, "Y": 27.994491, "District": "Gorkha", "Health Facility": "Hospital", "Name": "Gorkha District Hospital, Gorkha" }, "geometry": { "type": "Point", "coordinates": [ 84.628243, 27.994491 ] } }
+,
+{ "type": "Feature", "properties": { "X": 80.93743, "Y": 29.240159, "District": "Doti", "Health Facility": "Hospital", "Name": "Doti District Hospital, Silgudhi" }, "geometry": { "type": "Point", "coordinates": [ 80.93743, 29.240159 ] } }
+,
+{ "type": "Feature", "properties": { "X": 81.710354, "Y": 28.827126, "District": "Dailekh", "Health Facility": "Hospital", "Name": "Dailekh District Hospital, Dailekh" }, "geometry": { "type": "Point", "coordinates": [ 81.710354, 28.827126 ] } }
+,
+{ "type": "Feature", "properties": { "X": 80.37221, "Y": 29.53787, "District": "Baitadi", "Health Facility": "Hospital", "Name": "Baitadi District  Hospital, Gothalapani" }, "geometry": { "type": "Point", "coordinates": [ 80.37221, 29.53787 ] } }
+,
+{ "type": "Feature", "properties": { "X": 81.257801, "Y": 29.134863, "District": "Achham", "Health Facility": "Hospital", "Name": "Achham District Hospital, Mangalsen" }, "geometry": { "type": "Point", "coordinates": [ 81.257801, 29.134863 ] } }
+,
+{ "type": "Feature", "properties": { "X": 81.331949, "Y": 28.227109, "District": "BARDIYA", "Health Facility": "Hospital", "Name": "Bardiya District Hospital, Gulariya" }, "geometry": { "type": "Point", "coordinates": [ 81.331949, 28.227109 ] } }
+,
+{ "type": "Feature", "properties": { "X": 81.601054, "Y": 28.606385, "District": "Surkhet", "Health Facility": "Hospital", "Name": "Mid West Regional Hospital, Birendranagar" }, "geometry": { "type": "Point", "coordinates": [ 81.601054, 28.606385 ] } }
+,
+{ "type": "Feature", "properties": { "X": 87.267665, "Y": 26.809612, "District": "Sunsari", "Health Facility": "Hospital", "Name": "BP Koirala Institute of Health Science, Dharan" }, "geometry": { "type": "Point", "coordinates": [ 87.267665, 26.809612 ] } }
+,
+{ "type": "Feature", "properties": { "X": 86.75009, "Y": 26.536452, "District": "Saptari", "Health Facility": "Hospital", "Name": "Sagarmatha Zonal Hospital, Rajbiraj" }, "geometry": { "type": "Point", "coordinates": [ 86.75009, 26.536452 ] } }
+,
+{ "type": "Feature", "properties": { "X": 83.465017, "Y": 27.697545, "District": "RUPANDEHI", "Health Facility": "Hospital", "Name": "Lumbini Zonal Hospital, Butwal" }, "geometry": { "type": "Point", "coordinates": [ 83.465017, 27.697545 ] } }
+,
+{ "type": "Feature", "properties": { "X": 87.284832, "Y": 26.459268, "District": "Morang", "Health Facility": "Hospital", "Name": "Koshi Zonal Hospital, Biratnagar" }, "geometry": { "type": "Point", "coordinates": [ 87.284832, 26.459268 ] } }
+,
+{ "type": "Feature", "properties": { "X": 84.37728, "Y": 28.2255, "District": "Lamjung", "Health Facility": "Hospital", "Name": "Lamjung District Community Hospital, Besishahar" }, "geometry": { "type": "Point", "coordinates": [ 84.37728, 28.2255 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.5461, "Y": 27.61598, "District": "KABHREPALANCHOK", "Health Facility": "Hospital", "Name": "Dhulikhel Hospital, Dhulikhel" }, "geometry": { "type": "Point", "coordinates": [ 85.5461, 27.61598 ] } }
+,
+{ "type": "Feature", "properties": { "X": 80.184708, "Y": 28.964167, "District": "Kanchanpur", "Health Facility": "Hospital", "Name": "Mahakali Zonal Hospital, Mahendranagar" }, "geometry": { "type": "Point", "coordinates": [ 80.184708, 28.964167 ] } }
+,
+{ "type": "Feature", "properties": { "X": 80.587635, "Y": 28.703537, "District": "Kailali", "Health Facility": "Hospital", "Name": "Seti Zonal Hospital, Dhangadi" }, "geometry": { "type": "Point", "coordinates": [ 80.587635, 28.703537 ] } }
+,
+{ "type": "Feature", "properties": { "X": 82.491952, "Y": 28.037838, "District": "Dang", "Health Facility": "Hospital", "Name": "Rapti Sub-Regional Hospital, Ghorahi" }, "geometry": { "type": "Point", "coordinates": [ 82.491952, 28.037838 ] } }
+,
+{ "type": "Feature", "properties": { "X": 84.43646, "Y": 27.68217, "District": "CHITAWAN", "Health Facility": "Hospital", "Name": "Bharatpur Hospital, Bharatpur" }, "geometry": { "type": "Point", "coordinates": [ 84.43646, 27.68217 ] } }
+,
+{ "type": "Feature", "properties": { "X": 83.600474, "Y": 28.268531, "District": "BAGLUNG", "Health Facility": "Hospital", "Name": "Dhaulagiri Zonal Hospital, Baglung" }, "geometry": { "type": "Point", "coordinates": [ 83.600474, 28.268531 ] } }
+,
+{ "type": "Feature", "properties": { "X": 83.02224, "Y": 27.532849, "District": "Kapilbastu", "Health Facility": "Hospital", "Name": "Kapilvastu District Hospital, Taulihawa" }, "geometry": { "type": "Point", "coordinates": [ 83.02224, 27.532849 ] } }
+,
+{ "type": "Feature", "properties": { "X": 81.120469, "Y": 28.534159, "District": "Kailali", "Health Facility": "Hospital", "Name": "Tikapur Hospital" }, "geometry": { "type": "Point", "coordinates": [ 81.120469, 28.534159 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.30255, "Y": 27.686306, "District": "Lalitpur", "Health Facility": "NGO", "Name": "Sparsha Nepal" }, "geometry": { "type": "Point", "coordinates": [ 85.30255, 27.686306 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.347182, "Y": 27.703881, "District": "Kathmandu", "Health Facility": "NGO", "Name": "Maiti Nepal" }, "geometry": { "type": "Point", "coordinates": [ 85.347182, 27.703881 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.328321, "Y": 27.734667, "District": "Kathmandu", "Health Facility": "Hospital", "Name": "Kanti Bal Hospital" }, "geometry": { "type": "Point", "coordinates": [ 85.328321, 27.734667 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.13745, "Y": 27.884509, "District": "Nuwakot", "Health Facility": "Hospital", "Name": "Nuwakot District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 85.13745, 27.884509 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.027661, "Y": 27.43256, "District": "Makwanpur", "Health Facility": "Hospital", "Name": "Makwanpur District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 85.027661, 27.43256 ] } }
+,
+{ "type": "Feature", "properties": { "X": 80.586733, "Y": 29.299119, "District": "Dadeldhura", "Health Facility": "Hospital", "Name": "Dadeldhura District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 80.586733, 29.299119 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.42193, "Y": 27.672288, "District": "Bhaktapur", "Health Facility": "Hospital", "Name": "Bhaktapur District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 85.42193, 27.672288 ] } }
+,
+{ "type": "Feature", "properties": { "X": 81.193449, "Y": 29.547793, "District": "Bajhang", "Health Facility": "Hospital", "Name": "Bajhang District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 81.193449, 29.547793 ] } }
+,
+{ "type": "Feature", "properties": { "X": 81.670625, "Y": 29.504607, "District": "Bajura", "Health Facility": "Hospital", "Name": "Bajura District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 81.670625, 29.504607 ] } }
+,
+{ "type": "Feature", "properties": { "X": 82.84944, "Y": 28.10431, "District": "Pyuthan", "Health Facility": "Hospital", "Name": "Pyuthan District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 82.84944, 28.10431 ] } }
+,
+{ "type": "Feature", "properties": { "X": 82.615562, "Y": 28.322525, "District": "Rolpa", "Health Facility": "Hospital", "Name": "Rolpa District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 82.615562, 28.322525 ] } }
+,
+{ "type": "Feature", "properties": { "X": 83.142479, "Y": 27.986191, "District": "Arghakhachi ", "Health Facility": "Hospital", "Name": "Arghakhachi District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 83.142479, 27.986191 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.004125, "Y": 27.037067, "District": "Bara", "Health Facility": "Hospital", "Name": "Bara District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 85.004125, 27.037067 ] } }
+,
+{ "type": "Feature", "properties": { "X": 80.533776, "Y": 29.837296, "District": "Darchula", "Health Facility": "Hospital", "Name": "Darchula District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 80.533776, 29.837296 ] } }
+,
+{ "type": "Feature", "properties": { "X": 83.53604, "Y": 28.33701, "District": "Myagdi", "Health Facility": "Hospital", "Name": "Myagdi District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 83.53604, 28.33701 ] } }
+,
+{ "type": "Feature", "properties": { "X": 83.66046, "Y": 27.52039, "District": "Nawalparasi", "Health Facility": "Hospital", "Name": "Nawalparasi District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 83.66046, 27.52039 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.7129, "Y": 27.77311, "District": "Sindhupalchowk", "Health Facility": "Hospital", "Name": "Sindhupalchowk District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 85.7129, 27.77311 ] } }
+,
+{ "type": "Feature", "properties": { "X": 84.954885, "Y": 27.906736, "District": "Dhading", "Health Facility": "Hospital", "Name": "Dhading District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 84.954885, 27.906736 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.264651, "Y": 26.776172, "District": "Sidhartha-nagar -Rupendehi", "Health Facility": "Hospital", "Name": "Bhim Hospital" }, "geometry": { "type": "Point", "coordinates": [ 85.8082339, 26.6928973 ] } }
+,
+{ "type": "Feature", "properties": { "X": 85.264651, "Y": 26.776172, "District": "Rautahat", "Health Facility": "Hospital", "Name": "Rautahat District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 85.264651, 26.776172 ] } }
+,
+{ "type": "Feature", "properties": { "X": 86.4867716, "Y": 26.7558138, "District": "Lahan", "Health Facility": "Hospital", "Name": "Ram Kumar Uma Shankar Charity Hospital" }, "geometry": { "type": "Point", "coordinates": [ 86.486771, 26.755813 ] } }
+
+,
+{ "type": "Feature", "properties": { "X": 87.2796884, "Y": 27.3654478, "District": "Sankhubasava", "Health Facility": "Hospital", "Name": "Sankhubasava District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 87.2796884, 27.3654478 ] } }
+
+,
+{ "type": "Feature", "properties": { "X": 87.3199336, "Y": 26.9769286, "District": "Dhankuta", "Health Facility": "Hospital", "Name": "Dhankuta District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 87.3199336, 26.9769286 ] } }
+
+,
+{ "type": "Feature", "properties": { "X": 85.8082339, "Y": 26.6928973, "District": "Mohatari", "Health Facility": "Hospital", "Name": "Jaleshwor District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 85.8082339, 26.6928973 ] } }
+
+,
+{ "type": "Feature", "properties": { "X": 85.5609174, "Y": 26.854382, "District": "Sarlahi", "Health Facility": "Hospital", "Name": "Sarlahi District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 85.5609174, 26.854382 ] } }
+
+,
+{ "type": "Feature", "properties": { "X": 86.7003465, "Y": 26.7891975, "District": "Udaypur", "Health Facility": "Hospital", "Name": "Udaypur District Hospital , Gaighat" }, "geometry": { "type": "Point", "coordinates": [ 86.7003465, 26.7891975 ] } }
+
+,
+{ "type": "Feature", "properties": { "X": 85.952053, "Y": 27.2818369, "District": "Sindhuli", "Health Facility": "Hospital", "Name": "Sindhuli District Hospital, Sindhuli Gadi" }, "geometry": { "type": "Point", "coordinates": [ 85.952053, 27.2818369 ] } }
+,
+{ "type": "Feature", "properties": { "X": 87.9236544, "Y": 26.909687, "District": "Ilam", "Health Facility": "Hospital", "Name": "Ilam District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 87.9236544, 26.909687 ] } }
+
+,
+{ "type": "Feature", "properties": { "X": 86.4991191, "Y": 27.3309472, "District": "Okhaldhunga", "Health Facility": "Hospital", "Name": "Okhaldhunga District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 86.4991191,27.3309472 ] } },
+
+{ "type": "Feature", "properties": { "X":  82.17340, "Y": 28.37289, "District": "Salyan", "Health Facility": "Hospital", "Name": "Salyan District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 82.17340,28.37289 ] } },
+
+{ "type": "Feature", "properties": { "X":  82.451824, "Y": 28.641047, "District": "Rukum", "Health Facility": "Hospital", "Name": "Rukum District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 82.451824,28.641047 ] } },
+
+{ "type": "Feature", "properties": { "X":  81.593075, "Y":29.147172, "District": "Kalikot", "Health Facility": "Hospital", "Name": "Kalikot District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 81.593075, 29.147172] } },
+ 
+{ "type": "Feature", "properties": { "X":  83.6746082, "Y":28.2117425, "District": "Parbat", "Health Facility": "Hospital", "Name": "Parbat District Hospital" }, "geometry": { "type": "Point", "coordinates": [ 83.6746082, 28.2117425] } },
+
+{ "type": "Feature", "properties": { "X":  83.873968, "Y":28.0049, "District": "Syanja", "Health Facility": "Hospital", "Name": "Garhuan Ghyangling PHC (Walling PHC)" }, "geometry": { "type": "Point", "coordinates": [ 83.7636, 27.98788] } },
+{ "type": "Feature", "properties": { "X": 87.15, "Y": 26.6025, "District": "Sunsari", "Health Facility": "Hospital", "Name": "Inaruwa Hospital" }, "geometry": { "type": "Point", "coordinates": [ 87.15, 26.6025 ] } },
+{ "type": "Feature", "properties": { "X": 81.31, "Y": 29.11, "District": "Achham", "Health Facility": "Hospital", "Name": "Kamalbazar-Achham" }, "geometry": { "type": "Point", "coordinates": [ 81.31, 29.11 ] } },
+{ "type": "Feature", "properties": { "X": 81.251801, "Y": 29.231863, "District": "Achham", "Health Facility": "Hospital", "Name": "Chaurmandu PHC, Chaurmandu" }, "geometry": { "type": "Point", "coordinates": [81.251801, 29.231863 ] } },
+{ "type": "Feature", "properties": { "X": 80.5157944, "Y": 28.8343987, "District": "Achham", "Health Facility": "Hospital", "Name": "Malakheti Hospital, Malakheti" }, "geometry": { "type": "Point", "coordinates": [80.5157944, 28.8343987 ] } },
+{ "type": "Feature", "properties": { "X": 82.295258, "Y": 28.1359417, "District": "Achham", "Health Facility": "Hospital", "Name": "Rapti Zonal Hospital, Tulsipur" }, "geometry": { "type": "Point", "coordinates": [82.295258, 28.1359417 ] } },
+{ "type": "Feature", "properties": { "X": 82.9678564, "Y": 27.5620678, "District": "Achham", "Health Facility": "Hospital", "Name": "Maharajgunj PHC,Kapilvastu" }, "geometry": { "type": "Point", "coordinates": [82.9678564, 27.5620678] } },
+{ "type": "Feature", "properties": { "X": 85.3167523, "Y": 27.6895076, "District": "Achham", "Health Facility": "Hospital", "Name": "Paropakar Maternity Hospital,Thapathali" }, "geometry": { "type": "Point", "coordinates": [85.3167523, 27.6895076] } },
+{ "type": "Feature", "properties": { "X": 84.0114076, "Y": 27.6119969, "District": "Nawalpur", "Health Facility": "Hospital", "Name": "Chormara PHC,Chormara" }, "geometry": { "type": "Point", "coordinates": [84.0114076, 27.6119969] } },
+{ "type": "Feature", "properties": { "X": 80.0447552, "Y": 28.8603558, "District": "Kanchanpur", "Health Facility": "Hospital", "Name": "Dhodhara PHC,Dhodhara" }, "geometry": { "type": "Point", "coordinates": [80.0447552, 28.8603558] } },
+{ "type": "Feature", "properties": { "X": 81.5486299, "Y": 28.983241, "District": "Dailekh", "Health Facility": "Hospital", "Name": "Lakhendra PHC,Lakhendra" }, "geometry": { "type": "Point", "coordinates": [81.5486299, 28.983241] } },
+{ "type": "Feature", "properties": { "X": 80.2770401, "Y": 29.4350936, "District": "Baitadi", "Health Facility": "Hospital", "Name": "Melauli PHC,Melauli" }, "geometry": { "type": "Point", "coordinates": [80.2770401, 29.4350936 ]} }
+
+] 
+}
