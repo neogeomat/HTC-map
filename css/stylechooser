@@ -1,0 +1,11 @@
+#styleChooser div button{
+    margin-left:20px;
+    font-weight: normal;
+}
+
+#styleChooser{
+    padding: 6px 10px 6px 6px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+    border-radius:5px;
+    font-weight: 700;
+}

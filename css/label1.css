@@ -1,0 +1,8 @@
+
+
+    .leaflet-label-overlay {
+        line-height: 0px;
+        margin-top: 9px;
+        position:absolute;
+        font: 16px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	}

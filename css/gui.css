@@ -1,0 +1,558 @@
+#map{
+    width:100%;
+    height:90%;
+}
+
+#USAID-Logo{
+    height: 55px;
+    margin-left:15px;
+    margin-top:-15px;
+}
+
+#banner{
+    height:10%;
+}
+#banner>table>tr>td{
+    text-align:center;
+}
+
+
+#GoN-Logo{
+    /*width: 10%;*/
+    height: 55px;
+    margin-right:15px;
+    margin-top:-15px;
+}
+
+.mapBox{
+    display: block;
+    top:0;
+    left:0;
+    width: 100%;
+    /*height: 100%;*/
+    z-index:0;
+    padding: 0px;
+}
+.panel{
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    z-index: 2;
+    width: initial;
+    background-color: initial;
+    border: none;
+    box-shadow:none;
+    padding: 6px 10px 4px 10px;
+}
+
+/**bootstrap overrides**/
+.panel *, .leaflet-bottom.leaflet-left .info1.leaflet-control{
+    font-family: "Verdana", "sans-serif";
+    font-weight: 400;
+    color:#000;
+    font-size: 10pt;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.4);
+}
+/****/
+
+/**disable user-selection of text in panels and legend**/
+.mapBox, .panel, .leaflet-bottom.leaflet-left{
+    user-select:none;
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none; 
+}
+/****/
+
+
+.panel>div>div, .leaflet-bottom.leaflet-left .info1.leaflet-control{
+    margin-bottom:2px;
+    border-radius: 0px;
+    box-shadow: 0px 2px 6px rgba(50, 50, 50, 0.8), 0px 0px 1px rgba(100, 100, 0, 0.6), 0px 0px 6px rgba(20, 20, 0, 0.5) inset;
+    padding: 6px 10px 6px 6px;
+    background-color: #ffffff;
+}
+
+
+
+#layersControl>div{
+    width:150px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.panel>div>.control-styles{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+
+.trigger{
+    width: 130px;
+}
+.trigger:hover{
+    cursor: pointer;
+}
+.trigger>div{
+    font-family: "Lucida Grande", "Verdana", "sans-serif";
+    font-style: normal;
+    float: right;
+
+    font-size: 9pt;
+    color: #cccccc;
+
+    width: 14pt;
+    line-height: 12pt;
+    border-radius:10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #cccccc;
+    text-align: center;
+    padding-right:1px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+}
+
+
+.trigger>div.lever.off:after{
+    content: "+";
+}
+.trigger>div.lever.on:after{
+    content: "-";
+}
+.trigger:hover>div.lever{
+    color: rgb(100,50,0);
+    border-color: #aaaaaa;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+}
+.trigger:active>div.lever{
+    color: rgb(100,0,0);
+    box-shadow: 0px 0px 3px rgba(100,0,0,0.3) inset;
+}
+.trigger:hover>div.lever.on{
+    border-color: #aaaaaa;
+    box-shadow: 0px 0px 2px rgba(100,0,0,0.3) inset, 0px 0px 1px rgba(100,0,0,0.3);
+}
+.trigger:active>div.lever.on{
+    box-shadow: 0px 0px 3px rgba(100,0,0,0.5) inset;
+}
+
+.styleChooser{
+    width: 150px;
+    font-weight: 700;
+}
+#styleChooser>div>button{
+    margin-left:20px;
+    font-weight: normal;
+}
+
+/**Layers and StyleChooser labels**/
+div.control-styles, div.leaflet-control-layers-group span.leaflet-control-layers-group-name{
+    font-family: "Verdana", "sans-serif";
+    font-size: 12pt;
+    font-weight: normal;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+
+
+}
+
+form.leaflet-control-layers-list{
+    margin:2px;
+    margin-left:0px;
+}
+
+div.leaflet-control-layers-group label:first-of-type{
+    margin-top:10px
+}
+
+div.control-styles div#styleChooser{
+    margin-top:10px;
+    font-size:10pt;
+}
+/****/
+
+/**legend**/
+.leaflet-bottom.leaflet-left .info1.leaflet-control{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding:2px;
+    margin-bottom: 27px;
+    border-radius: 6px;
+    max-width: 220px;
+    max-height:325px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+.leaflet-bottom.leaflet-left .info1.leaflet-control>h3{
+    margin-top: 6px;
+    font-size: 12pt;
+    width: 220px;
+    text-align: center;
+}
+.leaflet-bottom.leaflet-left .info1.leaflet-control img{
+    padding : 3px;
+    margin-top : 5px;
+    margin-right : 2px;
+    margin-bottom : 2px;
+}
+.leaflet-bottom.leaflet-left .info1.leaflet-control>div{
+    min-width: 216px;
+    border-radius : 0px;
+    border-top: #eeeeee thin solid;
+    margin: 0px 0px 0px 0px;
+    font-size:8pt;
+}
+/****/
+
+/**zoom controls**/
+div.leaflet-control-zoom{
+    top:5px;
+    margin-top:0px;
+}
+div.leaflet-control-search{
+    top:5px;
+}
+
+#zoom{
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+#zoom:hover{
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+#zoom>img{
+    width: 20px;
+    height: 20px;
+    outline: rgba(230,230,230,1) solid thin;
+}
+/****/
+
+.leaflet-label-overlay{    /*for district and vdc names*/
+    padding: 2px;
+    font-family: "Verdana", "sans-serif";
+    font-size: 8pt;
+    text-shadow: 0px 0px 4px #fff, 0px 0px 1px #009;
+    /*    background-color: #ffffff;
+        border-radius: 6px;
+        box-shadow: 0px 0px 3px rgba(0,0,100,0.4);*/
+}
+
+/**this block can be safely removed**/
+/**start of block**/
+/*Poshan: need to locate element generating javascript to properly implement these rules**/
+#map{
+    background-color: #d9ddd9; /*sets background color for map div*/
+}
+path.leaflet-clickable{
+    fill-color: #ffffff;  
+    fill-opacity:0.2;
+    /*sets color and opacity for map of Nepal*/
+    /*implement same color and rules for both district and vdc divs*/
+}
+/**end of block**/
+
+/* styling of no of cases in htc divicon*/
+.no-cases-icon {
+    background:#ff8888;
+    border:5px solid rgba(255,255,255,0.5);
+    color:#fff;
+    font-weight:bold;
+    text-align:center;
+    border-radius:50%;
+    line-height:30px;
+}
+
+/* lealet search control overrides*/
+.leaflet-control-search>input.search-input{
+    width: 200px;
+    font-family:"Verdana", "sans-serif";
+    font-weight:400;
+    font-size: 10pt;
+    text-shadow:0px 0px 1px rgba(0,0,0,0.4);
+}
+
+/**district popup**/
+.leaflet-popup-scrolled{
+    border:none;
+    /*border: #cccccc thin solid;*/
+    outline: #cccccc thin solid;
+    outline-offset: -1px;
+    //padding:0px 2px 0px 0px;
+    /*text-align:center;*/
+}
+
+div.leaflet-popup-content td{
+    border: #cccccc thin solid;
+    font-family: "Verdana", "sans-serif";
+    text-transform: capitalize;
+    padding:2px;
+}
+
+#popup td{
+    padding:0px;
+}
+
+div.leaflet-popup-content-wrapper tr{
+    font-size: 10pt;
+    user-select:text;
+    -webkit-user-select: text;  
+    -moz-user-select: text;     
+    -ms-user-select: text; 
+}
+#popup tr.sublist{
+    font-weight: normal;
+    font-style: italic;
+}
+#popup tr.sublist td{
+    border-top: none;
+    border-bottom: none;
+    padding-left: 20px;
+}
+#popup tr.listitem.expandable td{
+    border-bottom: none;
+}
+/****/
+
+
+/**title**/
+header.title{
+    /*position:absolute;*/
+    /*width:100%;*/
+    /*z-index:20000;*/
+    height:10%;
+    margin:0px;
+}
+
+/*div.title>h3{
+    text-align:center;
+    font-size:20pt;
+    margin:0px;
+    text-shadow: 0px 0px 1px rgb(50,50,0);
+}*/
+div.row{
+    position:relative;
+    margin:0px;
+    max-height:90%;
+}
+
+/*
+
+*/
+.leaflet-marker-icon {
+    z-index: 1000;    /*This code is getting overwritten somewhere*/
+}
+.leaflet-label{
+    z-index: 1100;   /*This code is getting overwritten somewhere*/
+}
+
+.legend-layer-class{
+    background-color: blanchedalmond;
+}
+.trigger{
+    font-size:12pt;
+    margin:2px;
+}
+
+/**disclaimer**/
+.leaflet-bottom.leaflet-right{
+    text-align: right;
+}
+#us-support-text{
+    bottom: 20px;
+left: 50%;
+margin-left: -170px;
+text-align: center;
+background-color: wheat;
+position: absolute;
+z-index: 1000;
+}
+#disclaimer{
+    display: inherit;
+font-size: 8pt;
+/* background-color: rgba(255,255,255,0.7); */
+ /*border: #888888 solid 2px; */
+pointer-events: auto;
+/* margin-top: -30pt; */
+}
+#disclaimer>img{
+    height:14pt;
+}
+#disclaimer>a{
+    font-size:15pt;
+}
+
+#disclaimerMsg{
+    position: absolute;
+    z-index: 100001;
+    left:35%;
+    top:35%;
+    width:40%;
+    height:40%;
+    background-color:#000000;
+    border: #ffffff solid thick;
+    outline: #ffffff solid thin;
+    outline-offset: 5px;
+    color:#ffffff;
+    font-size:14pt;
+    text-align:center;
+    padding:10px;
+    -moz-outline-radius: 4px;
+    -webkit-outline-radius: 4px;
+    -o-outline-radius: 4px;
+    -ms-outline-radius: 4px;
+    box-shadow:  0px 0px 6px 4px #ffffff, 0px 0px 8px 6px #333333;
+}
+
+#frost{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    
+    background:-moz-linear-gradient(45deg,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black
+        );
+    
+    background:-webkit-linear-gradient(45deg,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black
+        );
+    
+    background:-o-linear-gradient(45deg,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black
+        );
+    
+    background:-ms-linear-gradient(45deg,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black,
+        white, black, white, black, white, black, white, black
+        );
+    
+    opacity:0.1;
+    z-index:100000;
+}
+
+/****/

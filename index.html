@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min1.css" />
+    <link rel="stylesheet" href="js/leaflet-0.7/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/leaflet-search.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/leaflet.label.css" />
+    <link rel="stylesheet" type="text/css" href="css/label1.css" />
+    <link rel="stylesheet" type="text/css" href="css/leaflet.markercluster.css" />
+    <link rel="stylesheet" type="text/css" href="css/MarkerCluster.css" />
+
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/leaflet-0.7/leaflet.js"></script>
+    <script src="js/BoundaryCanvas.js"></script>
+    <script src="js/Leaflet.debug-0.0.1.js"></script>
+    <script src="js/spin.min.js"></script>
+    <script src="js/leaflet.spin.js"></script>
+    <script src="js/leaflet.ajax.min.js"></script>
+    <script src="js/randomColor.js"></script>
+    <script src="js/Leaflet.LabelOverlay.js"></script>
+    <script src="js/leaflet.groupedlayercontrol.js"></script>
+    <script src="js/leaflet-search.min.js"></script>
+    <!-- <script src = "data/testgeom.js"></script> -->
+    <script src="js/leaflet.label.js"></script>
+    <script src="js/leaflet.restoreview.js"></script>
+    <script src="js/leaflet.markercluster.js"></script>
+
+    <script type="text/javascript" src="js/guiInteractivity.js"></script>
+    <!--interactivity script for GUI-->
+    <link rel="stylesheet" href="css/gui.css" />
+    <!--css rules for GUI-->
+    <style>
+
+    </style>
+
+    <title>Map of HIV Service Sites
+    </title>
+
+
+</head>
+
+<body>
+    <div id="banner">
+        <table>
+            <tr>
+                <td style="
+
+            ">
+                    <img src="img/USAIDLogo.png" alt="USAID Logo" id="USAID-Logo" style="
+
+            ">
+                </td>
+                <td style="
+        width: 100%;
+        ">
+                    <header class="title" id="title" style="padding:10px; text-align: center;">
+                        <h3 style="font-family: 'Verdana','sans-serif'; text-shadow: 0px 0px 1px #000000;">Map of HIV Service Sites</h3>
+                    </header>
+                </td>
+                <td style="
+
+    ">
+                    <img src="img/GoNLogo.png" alt="GoN Logo" id="GoN-Logo" style="
+
+    ">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="us-support-text">This map was made possible with support from USAID.</div>
+
+    <!--<div id = "banner">
+        <img src="img/placeholder.gif" alt="FHI360 Banner" >
+    </div>-->
+
+    <div id="disclaimerMsg" style="display:none">
+        <div>The spatial data used while creating this map was collected through reference to secondary sources, Google Earth, and OpenStreetMap, with support from USAID-funded Saath-Saath Project (SSP) and NCASC program staff. The map is intended for informational
+            purposes only and should not be considered authoritative.<br><br> Click anywhere on the box to close.
+        </div>
+    </div>
+
+    <div class='row'>
+        <div class='col-xs-8 mapBox'>
+            <div id="map"></div>
+        </div>
+        <div class='col-xs-4 panel'>
+            <div id="layersControl"></div>
+            <div class="styleChooser">
+                <div class="control-styles">
+                    <div class='trigger styles passive'>Styles
+                        <div class="lever on"></div>
+                    </div>
+                    <div id="styleChooser" class="collapse in">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <script src="js/globalVariables.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/popup.js"></script>
+            <script src="js/styles.js"></script>
+            <script src="js/layers.js"></script>
+            <script src="js/label.js"></script>
+            <script src="js/styles_layers.js"></script>
+            <script src="js/legend.js"></script>
+            <script src="js/style_chooser.js"></script>
+            <script type="text/javascript">
+                map.attributionControl.addAttribution("Map Designed and Developed by <a target='_blank' href='http://www.kathmandulivinglabs.org'>Kathmandu Living Labs</a>");
+                // adding htc legend for first display
+                var legendObj = {};
+                legendObj["HTC Sites"] = STYLES[spaceToUnderscore("HTC Sites").toLowerCase() + "_styles"]["styles"]["Default"]["legend"];
+                legend.update(legendObj);
+            </script>
+</body>
+
+</html>
